@@ -29,7 +29,7 @@ session_start();
                 <!--Formulario de Login y registro-->
                 <div class="contenedor__login-register">
                     <!--Login-->
-                    <form action="./index.php" class="formulario__login" method="post">
+                    <form action="../controlador/login_admin.php" class="formulario__login" method="post">
                         <h2>Iniciar Sesión</h2>
                         <input type="text" placeholder="Correo Electronico" name="email">
                         <input type="password" placeholder="Contraseña"name="password">
